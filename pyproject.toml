@@ -1,0 +1,12 @@
+[project]
+name = "competitive-analysis-agent"
+version = "0.1.0"
+description = "Multi-agent competitive analysis tool powered by Claude Agent SDK"
+requires-python = ">=3.10"
+dependencies = [
+    "claude-agent-sdk>=0.1.48",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+analyze = "src.main:main"
