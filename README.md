@@ -44,7 +44,7 @@ Full report: [`outputs/report.md`](outputs/report.md)
 
 ## Architecture
 
-<img width="1394" height="1405" alt="Image" src="https://github.com/user-attachments/assets/67043e10-9652-49e5-80a5-36bc20afa376" />
+<img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/67043e10-9652-49e5-80a5-36bc20afa376" />
 
 ## Quality Control
 
