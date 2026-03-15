@@ -44,42 +44,7 @@ Full report: [`outputs/report.md`](outputs/report.md)
 
 ## Architecture
 
-
-
-
-```
-User Question
-      │
-      ▼
-┌─────────────┐
-│ Main Agent  │  Task decomposition & routing
-└──────┬──────┘
-       │
-       ▼
-┌──────────────────────────────────┐
-│       Subagents (parallel)       │
-├──────────────────────────────────┤
-│ • Web Researcher — websites,    │
-│   news, funding                 │
-│ • Review Analyzer — G2, Reddit  │
-│ • Hiring Analyzer — job posts   │
-└──────────┬───────────────────────┘
-           │
-           ▼
-    ┌─────────────┐
-    │ Synthesizer │  Draft report
-    └──────┬──────┘
-           │
-           ▼
-    ┌─────────────┐
-    │  Evaluator  │  Quality check
-    └──────┬──────┘
-           │
-     PASS ─┼─ FAIL → identifies gaps → re-research (max 3x)
-           │
-           ▼
-     Final Report
-```
+<img width="1394" height="1405" alt="Image" src="https://github.com/user-attachments/assets/67043e10-9652-49e5-80a5-36bc20afa376" />
 
 ## Quality Control
 
