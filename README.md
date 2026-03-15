@@ -112,7 +112,6 @@ Single prompts struggle with:
 **Why Claude Agent SDK instead of LangGraph?**
 
 - Project complexity is moderate—explicit code-level routing not needed
-- Demonstrates proficiency with Anthropic's ecosystem
 - Structured logging addresses debugging needs
 
 **Why is the Evaluator a separate agent?**
