@@ -90,7 +90,7 @@ Separation of concerns—the writer and reviewer are different agents to avoid "
 
 ```bash
 # Clone
-git clone https://github.com/[your-username]/competitive-analysis-agent.git
+git clone https://github.com/ylh551400/competitive-analysis-agent.git
 cd competitive-analysis-agent
 
 # Install
