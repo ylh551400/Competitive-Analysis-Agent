@@ -118,8 +118,5 @@ python -m src.main "Your business question here"
 - Verticalization: Custom analysis frameworks for SaaS, fintech, etc.
 - More data sources: Crunchbase API, LinkedIn integration
 
-## About Me
-
-[LinkedIn](https://www.linkedin.com/in/lyuhuan-y/)
-
+ 
  
