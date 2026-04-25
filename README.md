@@ -68,23 +68,7 @@ Failed checks trigger targeted re-research, up to 3 retries. After that, gaps ar
 - **Python asyncio** — Parallel subagent execution
 - **Structured Logging** — Step-by-step logs for debugging
 
-## Design Decisions
 
-**Why multi-agent instead of one big prompt?**
-
-Single prompts struggle with:
-- Complex search tasks—longer queries yield worse results
-- No quality gate—output quality is luck-dependent
-- Debugging—no visibility into which step failed
-
-**Why Claude Agent SDK instead of LangGraph?**
-
-- Project complexity is moderate—explicit code-level routing not needed
-- Structured logging addresses debugging needs
-
-**Why is the Evaluator a separate agent?**
-
-Separation of concerns—the writer and reviewer are different agents to avoid "grading your own homework."
 
 ## Setup
 
